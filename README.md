@@ -281,5 +281,3 @@ Educational resource - Free to use and share for learning purposes.
 **Start your JavaScript journey today!** 🚀
 
 Begin with [00_Basics](./00_Basics/) if you're new, or jump to [ES6 Features](./ECMAScript/ES6_ES2015/Features/) for modern JavaScript.
-
-Begin with [ES3](./javascript-evolution/ES3/) or jump to [ES2020](./javascript-evolution/ES2020/) for the latest game-changers.

@@ -42,8 +42,8 @@ ES6 introduced arrow functions with concise syntax and lexical `this`.
 
 ```javascript
 // ES6 - Arrow functions
-var numbers = [1, 2, 3, 4, 5];
-var doubled = numbers.map(n => n * 2);
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map(n => n * 2);
 console.log(doubled);  // [2, 4, 6, 8, 10]
 
 // Single parameter - parentheses optional

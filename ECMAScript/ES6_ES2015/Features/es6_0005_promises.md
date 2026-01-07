@@ -126,7 +126,8 @@ riskyOperation()
   .catch(error => console.error("Caught:", error.message));
 
 // Chaining with transformation
-fetch('https://api.example.com/data')  // Hypothetical
+// Note: fetch() is not part of ES6 but demonstrates promise chaining
+fetch('https://api.example.com/data')
   .then(response => response.json())
   .then(data => data.items)
   .then(items => items.filter(item => item.active))

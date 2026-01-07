@@ -95,8 +95,10 @@ console.log(integers);  // [1, 2, 3, 4]
 
 // Common shorthand (ES5)
 var stringNums = ["5", "10", "15"];
-var nums = stringNums.map(Number);  // Pass Number constructor
+var nums = stringNums.map(Number);  // Pass Number constructor directly
 console.log(nums);  // [5, 10, 15]
+// Note: Be careful - Number("10px") returns NaN, and map passes index as 2nd arg
+// For safety, use: stringNums.map(function(str) { return Number(str); })
 ```
 
 ## Why this is better
